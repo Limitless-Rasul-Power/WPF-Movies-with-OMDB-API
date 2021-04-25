@@ -1,0 +1,22 @@
+C:\Users\Admin\source\repos\WpfApp working with OMDB API\WpfApp working with OMDB API\bin\Debug\WpfApp working with OMDB API.exe.config
+C:\Users\Admin\source\repos\WpfApp working with OMDB API\WpfApp working with OMDB API\bin\Debug\WpfApp working with OMDB API.exe
+C:\Users\Admin\source\repos\WpfApp working with OMDB API\WpfApp working with OMDB API\bin\Debug\WpfApp working with OMDB API.pdb
+C:\Users\Admin\source\repos\WpfApp working with OMDB API\WpfApp working with OMDB API\obj\Debug\WpfApp working with OMDB API.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\WpfApp working with OMDB API\WpfApp working with OMDB API\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\source\repos\WpfApp working with OMDB API\WpfApp working with OMDB API\obj\Debug\App.g.cs
+C:\Users\Admin\source\repos\WpfApp working with OMDB API\WpfApp working with OMDB API\obj\Debug\WpfApp working with OMDB API_MarkupCompile.cache
+C:\Users\Admin\source\repos\WpfApp working with OMDB API\WpfApp working with OMDB API\obj\Debug\WpfApp working with OMDB API_MarkupCompile.lref
+C:\Users\Admin\source\repos\WpfApp working with OMDB API\WpfApp working with OMDB API\obj\Debug\MainWindow.baml
+C:\Users\Admin\source\repos\WpfApp working with OMDB API\WpfApp working with OMDB API\obj\Debug\WpfApp working with OMDB API.g.resources
+C:\Users\Admin\source\repos\WpfApp working with OMDB API\WpfApp working with OMDB API\obj\Debug\WpfApp_working_with_OMDB_API.Properties.Resources.resources
+C:\Users\Admin\source\repos\WpfApp working with OMDB API\WpfApp working with OMDB API\obj\Debug\WpfApp working with OMDB API.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\WpfApp working with OMDB API\WpfApp working with OMDB API\obj\Debug\WpfApp working with OMDB API.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\WpfApp working with OMDB API\WpfApp working with OMDB API\obj\Debug\WpfApp working with OMDB API.exe
+C:\Users\Admin\source\repos\WpfApp working with OMDB API\WpfApp working with OMDB API\obj\Debug\WpfApp working with OMDB API.pdb
+C:\Users\Admin\source\repos\WpfApp working with OMDB API\WpfApp working with OMDB API\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\source\repos\WpfApp working with OMDB API\WpfApp working with OMDB API\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\source\repos\WpfApp working with OMDB API\WpfApp working with OMDB API\obj\Debug\WpfApp working with OMDB API.csproj.CopyComplete
+C:\Users\Admin\source\repos\WpfApp working with OMDB API\WpfApp working with OMDB API\obj\Debug\VideoWindow.g.cs
+C:\Users\Admin\source\repos\WpfApp working with OMDB API\WpfApp working with OMDB API\obj\Debug\VideoWindow.baml
+C:\Users\Admin\source\repos\WpfApp working with OMDB API\WpfApp working with OMDB API\obj\Debug\Dictionary.baml
+C:\Users\Admin\source\repos\WpfApp working with OMDB API\WpfApp working with OMDB API\obj\Debug\App.baml

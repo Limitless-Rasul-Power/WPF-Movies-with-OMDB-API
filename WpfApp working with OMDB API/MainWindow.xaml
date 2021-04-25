@@ -1,0 +1,131 @@
+﻿<Window x:Class="WpfApp_working_with_OMDB_API.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp_working_with_OMDB_API"
+        mc:Ignorable="d"
+        Title="Home" Height="680" Width="1000" WindowStartupLocation="CenterScreen" MinHeight="680" MinWidth="1000">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="90*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="25*"/>
+                <ColumnDefinition Width="20*"/>
+                <ColumnDefinition Width="55*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Column="0" Background="{StaticResource MainWindowLeftHeader}"></Grid>
+
+            <WrapPanel Grid.Column="1" Background="{StaticResource MainWindowLeftHeader}">
+                <Image Source="/img/movie.png" Margin="3"></Image>
+                <TextBlock FontSize="15" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="WhiteSmoke" FontFamily="Segoe UI">Enjoy movie</TextBlock>
+            </WrapPanel>
+
+            <Grid Grid.Column="2" Background="{StaticResource MainWindowRightHeader}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="10*"/>
+                    <ColumnDefinition Width="90*"/>
+                </Grid.ColumnDefinitions>
+
+                <Image Grid.Column="0" Name="ImgSearch" Source="/img/search.png" Margin="0, 10, 5, 5"
+                       MouseLeftButtonUp="ImgSearch_MouseLeftButtonUp" Cursor="Hand">
+
+                </Image>
+
+                <TextBox Grid.Column="1" Name="TxtBxMovieName" Style="{StaticResource SearchTxtBx}" KeyUp="TxtBxMovieName_KeyUp">
+
+                </TextBox>
+            </Grid>
+
+
+        </Grid>
+
+        <Grid Grid.Row="1">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="60*"/>
+                <ColumnDefinition Width="40*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Column="0">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="93*"/>
+                    <RowDefinition Height="7*"/>
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="0">
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="10*"/>
+                        <ColumnDefinition Width="80*"/>
+                        <ColumnDefinition Width="10*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Button Name="BtnPrevious" Grid.Column="0" Style="{StaticResource ChangeButton}"
+                            Click="BtnPrevious_Click">
+                        <Image Source="/img/left-arrow.png"></Image>
+                    </Button>
+
+                    <Image Grid.Column="1" Name="ImgMovie" Margin="5" Source="/img/no image.png" Stretch="Fill"></Image>
+
+                    <Button Name="BtnNext" Grid.Column="2" Style="{StaticResource ChangeButton}"
+                            Click="BtnNext_Click">
+                        <Image Source="/img/right-arrow.png"></Image>
+                    </Button>
+
+                </Grid>
+
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="10*"/>
+                        <ColumnDefinition Width="80*"/>
+                        <ColumnDefinition Width="10*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <ScrollViewer Grid.Column="1"  HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+                        <TextBlock Name="TxtBlckGenre" Style="{StaticResource StandartTextBlock}"
+                           FontFamily="Palatino Linotype">
+
+                        </TextBlock>
+                    </ScrollViewer>
+
+                </Grid>
+              
+
+            </Grid>
+
+            <Grid Grid.Column="1">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="15*"/>
+                    <RowDefinition Height="70*"/>
+                    <RowDefinition Height="15*"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Grid.Row="0" Name="TxtBlckTitle" Style="{StaticResource StandartTextBlock}"
+                           FontStyle="Italic" FontWeight="Bold" >
+                </TextBlock>
+
+                <ScrollViewer Grid.Row="1"  HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" Margin="10">
+                    <TextBlock Name="TxtBlckPlot" HorizontalAlignment="Center" FontSize="20" Padding="0, 10, 0, 0" TextWrapping="Wrap">
+
+                    </TextBlock>
+                </ScrollViewer>
+
+                <Button Grid.Row="2" Name="BtnWatch" Style="{StaticResource GreatButton}" Click="BtnWatch_Click">Watch Now</Button>
+                
+            </Grid>
+        </Grid>
+
+
+
+    </Grid>
+</Window>
