@@ -162,12 +162,12 @@ namespace WpfApp_working_with_OMDB_API
 
                 SetDataForMovie();
 
-                this.Cursor = Cursors.Hand;
+                this.Cursor = Cursors.Arrow;
             }
             catch (Exception caption)
             {
                 MessageBox.Show(caption.Message, "Movie Life..");
-                this.Cursor = Cursors.Hand;
+                this.Cursor = Cursors.Arrow;
             }
 
         }
